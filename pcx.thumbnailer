@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=pcx-thumbnailer
+Exec=pcx-thumbnailer %i %o %s
+MimeType=image/vnd.zbrush.pcx;
