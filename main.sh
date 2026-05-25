@@ -40,7 +40,7 @@ fi
 # convert!
 magick ${INPUT} -thumbnail ${PIXELCOUNT}@ \
 	-gravity center -background transparent \
-	-extent ${SIZE}x${SIZE} ${OUTPUT}
+	-extent ${SIZE}x${SIZE} PNG:${OUTPUT}
 
 [ -s ${OUTPUT} ] || error_out "Could not convert to thumbnail!"
 
